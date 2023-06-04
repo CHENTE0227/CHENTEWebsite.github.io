@@ -1,0 +1,161 @@
+.responsive-body {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .responsive-body {
+        font-size: 14px;
+    }
+    
+    @media (orientation: landscape) {
+        .centered {
+            color: darkgreen;
+        }
+    }
+}
+
+.wrapper {
+    position: relative;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    background-image: url(images/bahamut-removebg-preview.png);
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: left;
+}
+
+.box div {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border: 7px solid;
+    align-content: center;
+    text-align: center;
+    border-color: black;
+    background-color: lightgray;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    font-family: serif;
+}
+
+.player div {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    background-color: darkseagreen;
+}
+
+footer {
+    font-size: 23px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+form {
+    border: 4px solid white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.subcribe {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=text],
+input[type=submit] {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: lightgray;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+a:link {
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+a:active {
+    color: green;
+}
+
+
